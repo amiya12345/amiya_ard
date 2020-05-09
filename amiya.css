@@ -1,14 +1,18 @@
 body{
     height: 100%;
+   
     width: 100%;
 }
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
 canvas{
     height: 100%;
     width: 100%;
     position: fixed;
 }
 
-@media only screen and (max-width: 600px){
+@media all and (max-width:767px){
     
     canvas{
         display: block;
