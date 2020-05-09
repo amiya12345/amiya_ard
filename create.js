@@ -10,5 +10,5 @@ function draw() {
 	const amiyafury =map (mouseY,0,height,0,TWO_PI);
 	rotate(amiyafury);
 	stroke(ard,ard1,255);
-	line(-50,0,50,0);
+	line(-150,0,150,0);
 }
