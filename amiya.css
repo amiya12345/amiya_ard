@@ -15,7 +15,7 @@ canvas{
 @media all and (max-width:767px){
     
     canvas{
-        display: block;
+        
         height: 100%;
         width: 100%;
     }
