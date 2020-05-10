@@ -9,8 +9,8 @@ body{
 .canvas{
     height: 100%;
     width: 100%;
-    border: orchid;
-    border-width: 1px;
+    position: fixed;
+  
 }
 
 .ard{
