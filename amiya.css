@@ -1,22 +1,12 @@
 body{
     height: 100%;
-   
+    
     width: 100%;
 }
 *, *:before, *:after {
     box-sizing: border-box;
   }
-canvas{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-}
 
-@media all and (max-width:767px){
-    
-    canvas{
-        
-        height: 100%;
-        width: 100%;
-    }
+canvas{
+    position: fixed;
 }
