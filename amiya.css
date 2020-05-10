@@ -1,5 +1,6 @@
 body{
     height: 100%;
+    position: fixed;
     
     width: 100%;
 }
@@ -7,8 +8,7 @@ body{
     box-sizing: border-box;
   }
 .canvas{
-    height: 100%;
-    width: 100%;
+   
     position: fixed;
   
 }
