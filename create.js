@@ -10,6 +10,6 @@ const ard1 =map(mouseY,0,height,0,255);
 translate(mouseX,mouseY);
 const amiyafury =map (mouseY,0,height,0,TWO_PI);
 rotate(amiyafury);
-stroke(ard,ard1,170);
-line(-100,0,100,0);
+stroke(ard,ard1,255);
+line(-150,0,150,0);
 }

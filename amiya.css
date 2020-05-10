@@ -6,7 +6,24 @@ body{
 *, *:before, *:after {
     box-sizing: border-box;
   }
+.canvas{
+    height: 100%;
+    width: 100%;
+    border: orchid;
+    border-width: 1px;
+}
 
-canvas{
-    position: fixed;
+.ard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ard li{
+    list-style: none;
+    padding: 15px 15px;
+    color: #d35400;
+    font-family: 'Open Sans', sans-serif;
+}
+.dark{
+    background-color: #2d3436;
 }

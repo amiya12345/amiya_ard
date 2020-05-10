@@ -6,13 +6,34 @@
         <link rel="stylesheet" href="amiya.css">
         <script src="create.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
         
     </head>
     <body>
-       
+        <div class="ard">
+           <li href="index.html">Draw here</li>
+             
+        <li onclick="myFunction()">Change Background</li>
+         <li onClick="download()"> <a id="download" download="art.jpg">Download</li>
+        </div>
+     
 
+   <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark");
+}
+function download() {
+var download = document.getElementById("download");
 
+var image = document.querySelector("canvas").toDataURL("image/png")
+
+    .replace("image/jpg", "image/octet-stream");
+     download.setAttribute("href", image);
+
+}
+</script>
 
         
             
