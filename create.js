@@ -3,6 +3,9 @@ function windowResized() {
    
 
   }
+  function setup() {
+    createCanvas(windowWidth, windowHeight);
+  }
 
 function draw() {
 const ard = map(mouseX,0,width,100,255);
