@@ -26,11 +26,15 @@ body{
     font-size: 2.5vh;
     
 }
+.ard li:hover{
+    cursor: pointer;
+}
 .dark{
     background-color: #2d3436;
 }
 li a{
     text-decoration: none;
+    color: #d35400;
 }
 @media only screen and (max-width: 600px){
     .ard li{
